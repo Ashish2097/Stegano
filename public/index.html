@@ -1,0 +1,94 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <script language="javascript" type="text/javascript" src="js/main.js"></script>
+  <link rel="stylesheet" href="css/mai.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+
+
+
+  <section>
+    <div class="row">
+      <div class="container center">
+        <div class="col s12">
+          <canvas id="d1"></canvas>
+        </div>
+        <div class="col s1 offset-s2">
+          <div class="upload-btn-wrapper">
+            <button class="btn">
+              <i class="material-icons">add</i>
+            </button>
+            <input type="file" id="finput" multiple="false" accept="image/*" onchange="uplode()" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section>
+    <div class="row">
+      <div class="container center">
+        <div class="col s12">
+          <canvas id="d2"></canvas>
+        </div>
+        <div class="col s1 offset-s2">
+          <div class="upload-btn-wrapper">
+            <button class="btn">
+              <i class="material-icons">add</i>
+            </button>
+            <input type="file" id="finput1" multiple="false" accept="image/*" onchange="uplode1()" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section>
+    <div class="row">
+      <div class="container center">
+        <div class="col s12">
+          <canvas id="d3"></canvas>
+        </div>
+        <div class="col s1 offset-s2">
+          <div class="upload-btn-wrapper">
+            <button class="btn" id="enc" onclick="enc()">
+              <i class="material-icons">near_me</i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="row">
+      <div class="container center">
+        <div class="col s12">
+          <canvas id="d4"></canvas>
+        </div>
+        <div class="col s1 offset-s2">
+          <div class="upload-btn-wrapper">
+            <button class="btn" id="enc" onclick="dec()">
+              <i class="material-icons">near_me</i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="http://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+</body>
+
+</html>
