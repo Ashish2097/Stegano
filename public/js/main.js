@@ -61,8 +61,8 @@ function enc() {
     var pixelb = pixel.getBlue();
 
     var newg = (pixelg & 240) + (hidedg >> 4);
-    var newb = (pixelr & 240) + (hidedr >> 4);
-    var newr = (pixelb & 240) + (hidedb >> 4);
+    var newb = (pixelb & 240) + (hidedb >> 4);
+    var newr = (pixelr & 240) + (hidedr >> 4);
 
     pixel.setGreen(newg);
     pixel.setBlue(newb);
